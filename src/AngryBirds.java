@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.Locale;
 
+
 public class AngryBirds {
     public static void main(String[] args) {
         // Define o local como US para aceitar ponto (.) como separador decimal
