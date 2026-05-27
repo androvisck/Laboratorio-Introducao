@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class AnimaisCedulas {
+	public static void main (String[] args){
+		Scanner scanner = new Scanner(System.in);
+		int cedula;
+		
+		while (true) {
+			cedula = scanner.nextInt();
+			
+			if (cedula == 2){
+				System.out.println("Tartaruga");
+				break;
+			} else if (cedula == 5) {
+				System.out.println("Garça");
+				break;
+			} else if (cedula == 10) {
+				System.out.println("Arara");
+				break;
+			} else if (cedula == 20) {
+				System.out.println("Mico-leão-dourado");
+				break;
+			} else if (cedula == 50) {
+				System.out.println("Onça-pintada");
+				break;
+			} else if (cedula == 100) {
+				System.out.println("Garoupa");
+				break;
+			} else {
+				System.out.println("erro");
+				break;
+			}
+		}
+	}	
+}
