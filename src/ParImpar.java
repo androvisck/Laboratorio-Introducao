@@ -1,5 +1,14 @@
 import java.util.Scanner;
 
+/*Crie uma classe em Java chamada ParImpar que fique lendo números inteiros do teclado até que o número -1 seja digitado. Para cada número, imprimir se ele é "PAR" ou "IMPAR".
+Exemplo de entrada e saída esperada:
+Entrada: 6 67 32 7 -1
+Saída: PAR
+IMPAR
+PAR
+IMPAR
+*/
+
 public class ParImpar {
     public static void main(String[] args) {
     	Scanner scanner = new Scanner(System.in);
