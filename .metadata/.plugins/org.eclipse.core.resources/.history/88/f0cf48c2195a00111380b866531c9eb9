@@ -1,0 +1,21 @@
+import java.util.Scanner;
+import java.util.Locale;
+
+public class PontoReta {
+	public static void main (String[] args) {
+		Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+		double x;
+		double y;
+		
+		while (true) {
+			x = scanner.nextDouble();
+			y = scanner.nextDouble();
+			double resultado = (2 * x) + y;
+			
+			if (resultado == 3.0) {
+				System.out.println("Ponto (%.1f, %.1f) pertence a reta 2x + y = 3\n", x,y);
+			}
+		}
+	}
+
+}

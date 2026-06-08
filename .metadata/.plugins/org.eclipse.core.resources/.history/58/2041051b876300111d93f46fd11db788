@@ -1,0 +1,17 @@
+public class EnsalamentoMain {
+    public static void main(String[] args) {
+        // 1. Cria uma Sala
+        Sala sala1 = new Sala(6, 101, 50, true);
+
+        // 2. Cria uma Turma e adiciona horários
+        Turma turma1 = new Turma("Algoritmos", "Edleno Silva", 45, true);
+        turma1.addHorario(1);  // segunda 8hs
+        turma1.addHorario(15); // quarta 8hs
+
+        // 3. Aloca a turma na sala criando o objeto de associação
+        TurmaEmSala alocacao = new TurmaEmSala(turma1, sala1);
+
+        // Exemplo de acesso aos dados através do objeto alocacao
+        System.out.println("A turma '" + alocacao.turma.nome + "' foi alocada na " + alocacao.sala.getDescricao());
+    }
+}

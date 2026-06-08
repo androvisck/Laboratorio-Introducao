@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;CalendarioHorarioUtil&apos; to &apos;CalendarioHorarioUtilXXX&apos;&#x0A;- Original project: &apos;Lab_java_05&apos;&#x0A;- Original element: &apos;CalendarioHorarioUtil&apos;&#x0A;- Renamed element: &apos;CalendarioHorarioUtilXXX&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CalendarioHorarioUtil&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{CalendarioHorarioUtil.java[CalendarioHorarioUtil" matchStrategy="1" name="CalendarioHorarioUtilXXX" qualified="false" references="true" similarDeclarations="false" stamp="1681344287452" textual="false" version="1.0"/>
+</session>

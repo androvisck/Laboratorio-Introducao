@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.util.Locale;
+
+public class PontoReta {
+	public static void main (String[] args) {
+		Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+		double x;
+		double y;
+		
+		while (true) {
+			
+		}
+	}
+
+}

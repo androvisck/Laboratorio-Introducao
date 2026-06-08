@@ -1,0 +1,8 @@
+import java.util.Scanner;
+
+public class PontoReta {
+	public static void main (String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static double volumeArea(int raioR, int vAltura, final double pi)&apos; from &apos;TanqueCombustivel.main(...)&apos; to &apos;TanqueCombustivel&apos;&#x0A;- Original project: &apos;Lab_java_01&apos;&#x0A;- Method name: &apos;volumeArea&apos;&#x0A;- Destination type: &apos;TanqueCombustivel&apos;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;volumeArea&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{TanqueCombustivel.java" name="volumeArea" replace="false" selection="372 69" stamp="1681168984559" version="1.0" visibility="2"/>
+</session>
